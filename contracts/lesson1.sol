@@ -20,11 +20,12 @@ contract FirstContract{
     */
 
     /* Data types:
-    bool, int, uint, address, byte -> STACK, sstorage тільки якщо вони створюются як стан контракту
+    bool, int, uint, address -> STACK, sstorage тільки якщо вони створюются як стан контракту
 
     може все зберігатися у SSTORAGE тільки якщо створені як стан контракту
     якщо потрібно зберігати у machine state використовується ключове слово memory
     [], [][]
+    bytes
     string
     struct
     enum
